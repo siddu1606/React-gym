@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family:"poppins", sans-serif;
+}
+
+span{
+    font-family:inherit;
+    font-weight: inherit;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.blueShadow{
+    box-Shadow: 3px 3px 0 0 #60a5fa;
+}
+
+.blueShadow:hover{
+    transform: translate(-3px, 3px);
+    box-Shadow: 6px 6px 0 0 #60a5fa
+}
+
+.main
+    {
+        background-image: linear-gradient(to right, rgb(2, 6, 23), rgb(30, 41, 59));
+      }
+
+.SectionWraper, .button{
+    background-color:rgb(2, 6, 23);
+}
+
+.card{
+    color:rgb(148, 163, 184);
+
+}
