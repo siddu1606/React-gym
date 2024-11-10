@@ -103,7 +103,7 @@ function Generator(props){
                 )
             })}
             </div>
-        <Button func = {updateWorkout} text = {'Frmulate'} ></Button>
+        <Button func = {updateWorkout} text = {'formulate'} ></Button>
         </SectionWraper>
         </>
     )
