@@ -10,9 +10,6 @@ export function generateWorkout(args) {
     let includedTracker = [];
     let numSets = 5;
     let listOfMuscles;
-    console.log(TRAINING)
-    console.log(poision)
-    console.log(TRAINING[poision][muscles[0]])
     if (poision === 'individual') {
         listOfMuscles = muscles;
     } else {
@@ -20,7 +17,6 @@ export function generateWorkout(args) {
     }
 
 
-    console.log(listOfMuscles)
     listOfMuscles = new Set(shuffleArray(listOfMuscles));
     let arrOfMuscles = Array.from(listOfMuscles);
     let scheme = goal

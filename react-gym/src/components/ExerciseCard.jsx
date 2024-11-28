@@ -21,7 +21,7 @@ function ExerciseCard(props){
                 <h3 className="text-bl400 text-sm" >Muscle Group</h3>
                 <p className="capitalize " > {exercise.muscles.join(' & ')}</p>
             </div>
-            <div className="flex flex-col button gap-2" >
+            <div className="flex flex-col button gap-2" > 
                 {exercise.description.split('___').map((val) => {
                     return(
                         <div className="text-sm" >
